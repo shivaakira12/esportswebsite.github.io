@@ -561,9 +561,11 @@ header .nav .responsive li
 
 
 
+
 /*smartphones**/
 @media(max-width:480px)
 {
+
     #iconbar{
         
         visibility: visible;
@@ -574,10 +576,11 @@ header .nav .responsive li
     }
     header{
         height: 16vh;
+        width: 100%;
        
     }
     header .logo{
-        margin-left: 80px;
+        margin-left: 120px;
         
     }
     header .logo img{
@@ -609,7 +612,7 @@ header .nav .responsive li
      }
     .hero-section img{
         height: 150px;
-        margin-left: 40px;
+        margin-left: 90px;
     }
     .hero-section .hero-heading {
         padding: 10px 80px;
@@ -632,25 +635,30 @@ header .nav .responsive li
     .btn2 a
     {
         border-radius: 40px;
+        margin-left: 60px;
     }
     .about-section p{
+     
         font-size: 15px;
         text-align: center;
         padding: 10px 80px;
-        margin-left: 0px;
+        margin-left: 20px;
         font-weight: normal;
 
     }
     .news-container{
-        width: 100%;
-        
-       
+      
+        width: 75%;
+        padding: 0px 50px;
+    
+    
       
     }
     .news-holder{
     
         display: inline-block;
-        margin-top: 190px;
+        margin-top: 20px;
+
       
     }
     .inside-news{
@@ -681,30 +689,31 @@ header .nav .responsive li
         padding:10px 40px;
         border-top-left-radius: 30px;
     }
-    .inside-games img{
-        height: 100px;
-
-    }
+   
+   
+   
     .inside-games{
        
         display: inline-block;
         text-align: center;
+        margin-top: -30px;
         
     }
     .inside-games img{
-        height: 80px;
+        height: 100px;
         padding-top: 20px;
         
     }
     .partner{
+        
         display: inline-block;
-        width: 100%;
+        width: 85%;
+      
     }
     .our-partner img{
        
         height: 70px;
         box-shadow: none;
-       margin-left: -60px;
        padding: 10px;
     }
 
@@ -713,19 +722,23 @@ header .nav .responsive li
      
     }
     .inside-team img{
-        margin-left: -10px;
+       
        
     }
     .inside-team h4,p{
         text-align: center;
     }
  
- 
+    
+
+
+    
  
     .shop-container{
         display: inline-block;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 90px;
+       
     }
     .shop-images{
         padding-top: 40px;
@@ -768,18 +781,5 @@ header .nav .responsive li
    
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
